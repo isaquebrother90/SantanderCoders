@@ -1,0 +1,18 @@
+h1{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0em;
+    font-style: italic;
+}
+h2{
+    text-decoration: underline;
+    color: #ffffff;
+}
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+body{
+    background-color: #5874ff;
+}
