@@ -1,18 +1,70 @@
 h1{
-    color: #ffffff;
+    color: #1c64ff;
     text-align: center;
     text-shadow: 0em;
     font-style: italic;
 }
 h2{
     text-decoration: underline;
-    color: #ffffff;
+    color: #1c64ff;
 }
 p {
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 23px;
 }
 body{
-    background-color: #5874ff;
+    background-color: white;
 }
+
+mark {
+    background-color: chartreuse;
+}
+
+em {
+    color: gray;
+}
+
+strong {
+    text-decoration: underline #1c64ff;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #ff0000;
+  }
+  
+  a:active {
+    color: #000000;
+    color: white;
+  }
+  
+  input {
+    background-color: #ff0000;
+  }
+
+  input:focus {
+    background-color: #000000;
+    color: white;
+  }
+
+  textarea {
+      background-color: red;
+  }
+
+  textarea:hover{
+    background-color: black;
+    color: white;
+}
+
+  form:hover {
+      font-size: 20px;
+      transition-delay: 0ms;
+  }

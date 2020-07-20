@@ -1,0 +1,23 @@
+.class1{
+    background-color: blue;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.class2{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.class3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}

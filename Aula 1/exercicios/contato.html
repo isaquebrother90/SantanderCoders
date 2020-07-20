@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="css/estilos.css" rel="stylesheet">
+
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Formulário de contato</h1>
+
+    <form action="" method="POST">
+
+        <strong><label>Nome e sobrenome</label><br></strong>
+        <input type="text" nome e sobrenome="usuario" value="" required/>
+
+        <br><br>
+        <strong><label for="email">Email</label></strong>
+        <br>
+        <input type="email" id="email" placeholder="admin@admin.com" /><br><br>
+
+        <strong><label>Gênero</label><br><br></strong>
+        <label>Feminino</label>
+        <input type="radio" name="Feminino" value="Fm"><br>
+        <label>Masculino</label>
+        <input type="radio" name="Masculino" value="Mc"><br>
+        <label>Prefiro não dizer</label>
+        <input type="radio" name="Prefiro não dizer" value="Nd"><br><br>
+
+        <strong><label>Assunto</label></strong><select name="país">
+            <optgroup label="Assunto">
+                <option value="Trampo">Proposta de trabalho</option>
+                <option value="Parceria">Proposta de parceria</option>
+                <option value="Outros">Outros assuntos</option>
+            </optgroup>
+            
+        </select>
+
+        <br><br>
+        <strong><label>Passatempos</label></strong>
+        <br><br>
+        <label>Futebol</label>
+        <input type="checkbox" name="Futebol" value="Fut"><br>
+        <label>Cavalgar</label>
+        <input type="checkbox" name="Cavalgar" value="Caval"><br>
+        <label>Corrida</label>
+        <input type="checkbox" name="Corrida" value="Corrida"><br>
+        <label>Leitura</label>
+        <input type="checkbox" name="Leitura" value="Ler"><br>
+        <label>Estudo</label>
+        <input type="checkbox" name="Estudo" value="Estud"><br><br>
+
+        <strong><label>Comentários</label><br><br></strong>
+
+        <textarea rows="4" cols="50" name=”mensagem” style="resize: vertical;"> </textarea>
+
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Excluir</button>
+        <button type="button">Outra ação</button>
+
+        <a href="#">Início</a>
+
+    </form>
+
+    <br>
+    <strong><a href="index.html">Voltar para o currículo</a></body</strong>
+
+</body>
+</html>

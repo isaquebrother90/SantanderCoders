@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #ff0000;
+  }
+  
+  a:active {
+    color: #000000;
+  }
+  
+  input {
+    background-color: #ff0000;
+  }
+
+  input:focus {
+    background-color: #000000;
+  }
+  
