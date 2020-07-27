@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="css/estilos.css" rel="stylesheet">
+
 
     <style>
-
         body {
             background-image: url(images/imagemfundo.png);
             background-attachment: fixed;
@@ -23,39 +23,147 @@
             color: white;
             background-color: red;
             font-size: 22px;
+            text-align: center;
+            margin-top: 0px;
         }
 
         img:hover {
-            op:-2px;box-shadow:0 2px 2px #666;
+
+            box-shadow: 0 2px 2px rgb(243, 3, 3);
         }
 
+        .blocoprincipal {
+            width: 960px;
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .multimidiahobbies {
+            width: 640px;
+            padding-left: 320px;
+            position: relative;
+        }
+
+        .imagens {
+            padding-left: 140px;
+            background-color: rgba(28, 53, 38, 0.9);
+            padding-top: 25px;
+            margin-top: 20px;
+            margin-bottom: 23px;
+            padding-bottom: 25px;
+        }
+
+        .videos {
+            padding-bottom: 19px;
+        }
+
+        audio {
+            background-color: rgba(28, 53, 38, 0.9);
+            width: 640px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+
+        .rodapehobbies {
+            width: 960px;
+            height: 110px;
+            position: relative;
+            top: 1647px;
+            background-color: rgba(28, 53, 38, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+            margin: 20px -960px;
+            align-items: center;
+            color: white;
+        }
+
+        .titulopassatempos {
+            width: 960px;
+            box-sizing: border-box;
+            display: flex;
+            background-color: rgba(28, 53, 38, 0.9);
+            color: red;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+            align-items: center;
+        }
+
+        .linkshobbies {
+            width: 300px;
+            height: 1647px;
+            margin-left: -960px;
+            background-color: rgba(28, 53, 38, 0.9);
+        }
+
+        a {
+            color: red;
+            margin: auto 57px;
+        }
     </style>
 
 </head>
+
 <body>
-    <h1> Meus passatempos</h1>
+    <header>
+        <div class="titulopassatempos">
+            <h1> Meus passatempos</h1>
+        </div>
+    </header>
 
-    <img src="images/leitura.png" alt="Leitura" width=360 height=250>
-    <img src="images/paisagem.jpg" alt="Paisagem" width=360 height=250>
-    <img src="images/futebol.jpg" alt="Futebol" width=360 height=250>
+    <div class="blocoprincipal">
+        <section>
+            <article>
+                <div class="multimidiahobbies">
+                    <p class="destaque">IMAGENS</p>
 
-    <li><a href="index.html">Voltar para o currículo</a></li>
+                    <div class="imagens">
+                        <img src="images/leitura.png" alt="Leitura" width=360 height=250><br>
+                        <img src="images/paisagem.jpg" alt="Paisagem" width=360 height=250><br>
+                        <img src="images/futebol.jpg" alt="Futebol" width=360 height=250><br>
+                    </div>
+                    <p class="destaque">VÍDEO DE APRESENTAÇÃO</p>
 
-    <p class="destaque">Aqui é o parágrafo 1</p>
-    
-    <h2>Vídeo em HTML5</h2>
-    <video width="640" controls play poster="images/imagemteste.jpg">
-        <source src="videos/videoteste.webm" type="videoteste/webm">s
-    </video>
+                    <div class="videos">
+                        <h2>Vídeo em HTML5</h2>
+                        <video width="640" controls play poster="images/imagemteste.jpg">
+                            <source src="videos/videoteste.webm" type="videoteste/webm">s
+                        </video>
+                    </div>
+                    <p class="destaque">MINHA MÚSICA PREDILETA</p>
 
-    <p class="destaque">Aqui é o parágrafo 2</p>
+                    <div class="audio">
+                        <h2>Áudio em HTML 5</h2>
+                        <audio width="480" controls loop autoplay>
+                            <source src="audios/audioteste.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-    <h2>Áudio em HTML 5</h2>
-    <audio width="480" controls loop autoplay>
-        <source src="audios/audioteste.mp3" type="audio/mp3">
-    </audio>
+        <section>
+            <article>
+                <div class="linkshobbies">
+                    <br>
+                    <li><a href="index.html">Voltar para o currículo</a></li>
+                </div>
+            </article>
+        </section>
 
-    <p class="destaque">Aqui é o parágrafo 3</p>    
+        <footer>
+            <div class="rodapehobbies">
+                <em>
+                    <p>Todos os direitos reservados</p>
+                </em>
+            </div>
+        </footer>
 
 </body>
+
 </html>
